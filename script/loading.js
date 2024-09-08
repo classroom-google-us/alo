@@ -64,7 +64,7 @@ loadroomImages = function(){
 	for(x=0;x<roomImagesIndex.length;x++){
 		for(y=0;y<roomImagesIndex[x].amountofImages;y++){
 			roomImages[x][y] = new Image();
-			roomImages[x][y].src = "graphics/rooms/"+roomImagesIndex[x].name+"/"+y+".webp"
+			roomImages[x][y].src = "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/graphics/rooms/"+roomImagesIndex[x].name+"/"+y+".webp"
 			debuglog("Loaded %s",roomImages[x][y].src);
 		}
 	}
@@ -81,43 +81,43 @@ function loadEverythingElse(){
 		document.getElementById("mainmenu").style.display="none";
 		document.getElementById("night7interface").style.display="none"
 		//if(localStorage["fnaf-js-savegame.night"]!="5" || localStorage["fnaf-js-savegame.night"]!="6" || localStorage["fnaf-js-savegame.night"]!="7"){ 
-			document.getElementById("loadingicon").src=("graphics/loading/loading"+night+".png");
+			document.getElementById("loadingicon").src=("https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/graphics/loading/loading"+night+".png");
 		//} else {
 		//	document.getElementById("loadingicon").src=("graphics/loading/loading"+localStorage["fnaf-js-savegame.night"]+".png");
 		//};
 		document.getElementById("loadingicon").style.display="block";
 	for(x=0;x<1;x++){
 		officestates[x] = new Image();
-		officestates[x].src = "graphics/rooms/office/"+x+".webp";
+		officestates[x].src = "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/graphics/rooms/office/"+x+".webp";
 	};
 	for(x=0;x<rooms.length;x++){
 		roomnameimages[x] = new Image();
-		roomnameimages[x].src = "graphics/camera/roomnames/"+rooms[x].name+".webp";
+		roomnameimages[x].src = "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/graphics/camera/roomnames/"+rooms[x].name+".webp";
 	};
 	for(x=0;x<(3);x++){
 		for(y=0;y<2;y++){
 			if(!officelightstates[x]) officelightstates[x] = [];
 			officelightstates[x][y] = new Image();
-			officelightstates[x][y].src = "graphics/rooms/office/"+x+"_light"+yArray[y]+".webp";
+			officelightstates[x][y].src = "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/graphics/rooms/office/"+x+"_light"+yArray[y]+".webp";
 		};
 	};
 	for(x=1;x<5;x++){
 		buttonleftstates[x] = new Image();
-		buttonleftstates[x].src = "graphics/rooms/office/buttons/buttonleft_"+x+".webp";
+		buttonleftstates[x].src = "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/graphics/rooms/office/buttons/buttonleft_"+x+".webp";
 	};
 	for(x=1;x<5;x++){
 		buttonrightstates[x] = new Image();
-		buttonrightstates[x].src = "graphics/rooms/office/buttons/buttonright_"+x+".webp";
+		buttonrightstates[x].src = "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/graphics/rooms/office/buttons/buttonright_"+x+".webp";
 	};
 	for(x=0;x<14;x++){
 		doorrightanim[x] = new Image();
-		doorrightanim[x].src = "graphics/rooms/office/doors/right/"+x+".webp";
+		doorrightanim[x].src = "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/graphics/rooms/office/doors/right/"+x+".webp";
 		doorleftanim[x] = new Image();
-		doorleftanim[x].src = "graphics/rooms/office/doors/left/"+x+".webp";
+		doorleftanim[x].src = "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/graphics/rooms/office/doors/left/"+x+".webp";
 	};
 	for(x=1;x<6;x++){
 		powerusageimage[x] = new Image();
-		powerusageimage[x].src = "graphics/camera/power"+x+".png";
+		powerusageimage[x].src = "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/graphics/camera/graphics/camera/power"+x+".png";
 	};
 	for(x=0;x<10;x++){
 		powerusagenumbersimage[x] = new Image();
@@ -125,47 +125,47 @@ function loadEverythingElse(){
 	};
 	for(x=0;x<7;x++){
 		timehourimage[x] = new Image();
-		timehourimage[x].src = "graphics/camera/ui/time"+x+".png";
+		timehourimage[x].src = "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/graphics/camera/ui/time"+x+".png";
 	};
 	for(x=0;x<10;x++){
 		camerafeedanimationimage[x] = new Image();
-		camerafeedanimationimage[x].src = "graphics/camera/camerafeedanimation/"+x+".webp";
+		camerafeedanimationimage[x].src = "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/graphics/camera/camerafeedanimation/"+x+".webp";
 	};
 	for(x=0;x<2;x++){
 		room2aimage[x] = new Image();
-		room2aimage[x].src = "graphics/rooms/2a/"+x+".webp";
+		room2aimage[x].src = "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/graphics/rooms/2a/"+x+".webp";
 	};
 	for(x=0;x<31;x++){
 		room2afoxxyanim[x] = new Image();
-		room2afoxxyanim[x].src = "graphics/rooms/2a/foxxy/"+x+".webp";
+		room2afoxxyanim[x].src = "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/graphics/rooms/2a/foxxy/"+x+".webp";
 	};
 	for(x=1;x<4;x++){
 		fananim[0+x] = new Image();
-		fananim[0+x].src = "graphics/rooms/office/fan_"+x+".webp";
+		fananim[0+x].src = "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/graphics/rooms/office/fan_"+x+".webp";
 	};
 	for(x=0;x<21;x++){
 		foxxyofficeanim[x] = new Image();
-		foxxyofficeanim[x].src = "graphics/rooms/office/foxxy/"+x+".webp";
+		foxxyofficeanim[x].src = "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/graphics/rooms/office/foxxy/"+x+".webp";
 	};
 	for(x=0;x<2;x++){
 		poweroutimg[x] = new Image();
-		poweroutimg[x].src = "graphics/rooms/office/powerout"+x+".webp";
+		poweroutimg[x].src = "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/graphics/rooms/office/powerout"+x+".webp";
 	};
 	for(x=0;x<20;x++){
 		freddyanimationgameover[x] = new Image();
-		freddyanimationgameover[x].src = "graphics/gameover/freddy/"+x+".webp";
+		freddyanimationgameover[x].src = "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/graphics/gameover/freddy/"+x+".webp";
 	};
 	for(x=0;x<31;x++){
 		freddyofficeanimationgameover[x] = new Image();
-		freddyofficeanimationgameover[x].src = "graphics/gameover/freddyoffice/"+x+".webp";
+		freddyofficeanimationgameover[x].src = "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/graphics/gameover/freddyoffice/"+x+".webp";
 	};
 	for(x=0;x<22;x++){
 		bonnyanimationgameover[x] = new Image();
-		bonnyanimationgameover[x].src = "graphics/gameover/bonny/"+x+".webp";
+		bonnyanimationgameover[x].src = "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/graphics/gameover/bonny/"+x+".webp";
 	};
 	for(x=0;x<16;x++){
 		chicaanimationgameover[x] = new Image();
-		chicaanimationgameover[x].src = "graphics/gameover/chica/"+x+".webp";
+		chicaanimationgameover[x].src = "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/graphics/gameover/chica/"+x+".webp";
 	};
 	setTimeout(function(){
 		clearInterval(mainmenuanimInterval1);
@@ -189,5 +189,5 @@ function loadEverythingElse(){
 };
 for(x=0;x<4;x++){
 	mainmenufazbear[x] = new Image();
-	mainmenufazbear[x].src = "graphics/mainmenu/"+x+".webp";
+	mainmenufazbear[x].src = "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/graphics/mainmenu/"+x+".webp";
 };
