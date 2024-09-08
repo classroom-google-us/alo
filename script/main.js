@@ -459,15 +459,15 @@ function updatePowerPercent() {
     digit2 = parseInt(digit2);
     digit3 = parseInt(digit3);
 	if (currentPower<=0){
-    	numberonediv.attr("src","graphics/rooms/office/cameraposition.webp");
-    	numbertwodiv.attr("src","graphics/rooms/office/cameraposition.webp");
+    	numberonediv.attr("src","https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/graphics/rooms/office/cameraposition.webp");
+    	numbertwodiv.attr("src","https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/graphics/rooms/office/cameraposition.webp");
 	} else if(currentPower<10) {
         numberonediv.attr("src",powerusagenumbersimage[digit1].src);
-    	numbertwodiv.attr("src","graphics/rooms/office/cameraposition.webp");
+    	numbertwodiv.attr("src","https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/graphics/rooms/office/cameraposition.webp");
 	} else if (currentPower<100) {
         numberonediv.attr("src",powerusagenumbersimage[digit1].src);
 		numbertwodiv.attr("src",powerusagenumbersimage[digit2].src);
-    	numberthreediv.attr("src","graphics/rooms/office/cameraposition.webp");
+    	numberthreediv.attr("src","https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/graphics/rooms/office/cameraposition.webp");
     };
 };
 
