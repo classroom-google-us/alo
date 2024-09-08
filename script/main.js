@@ -472,7 +472,7 @@ function updatePowerPercent() {
 };
 
 function updatePowerUsage() {
-	powerusagediv.attr("src","graphics/camera/power"+(currentPowerUsage+1)+".png");
+	powerusagediv.attr("src","https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/graphics/camera/power"+(currentPowerUsage+1)+".png");
 	if(currentPower<=0) gameoverPowerFailure();
 }
 
