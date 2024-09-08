@@ -22,35 +22,35 @@ for(x=0;x<8;x++){
 /** @name sounds
 * @description The array of sound names and Audio() objects */
 var sounds=[
-{name: "chimes 2.wav",file: new Audio()}, 					// 0
-{name: "blip3.wav",file: new Audio()}, 						// 1
-{name: "CAMERA_VIDEO_LOA_60105303.wav",file: new Audio()},	// 2
-{name: "DOOR_POUNDING_ME_D0291401.wav",file: new Audio()},	// 3
-{name: "knock2.wav",file: new Audio()}, 					// 4
-{name: "pirate_song2.wav",file: new Audio()},				// 5
-{name: "powerdown.wav",file: new Audio()},					// 6
-{name: "put_down.wav",file: new Audio()},					// 7
-{name: "run.wav",file: new Audio()},						// 8
-{name: "SFXBible_12478.wav",file: new Audio()},				// 9
-{name: "static2.wav",file: new Audio()},					// 10
-{name: "windowscare.wav",file: new Audio()},				// 11
-{name: "XSCREAM.wav",file: new Audio()},
-{name: "XSCREAM2.wav",file: new Audio()},
-{name: "freddy/poweroutmusic.ogg",file: new Audio()},
-{name: "error.wav",file: new Audio()},
-{name: "kitchen1.wav",file: new Audio()},
-{name: "kitchen2.wav",file: new Audio()},
-{name: "kitchen3.wav",file: new Audio()},
-{name: "kitchen4.wav",file: new Audio()},
-{name: "Laugh_Giggle_Girl_1d.wav",file: new Audio()},
-{name: "Laugh_Giggle_Girl_2d.wav",file: new Audio()},
-{name: "Laugh_Giggle_Girl_8d.wav",file: new Audio()},
-{name: "deep steps.wav",file: new Audio()}
+{name: "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/sounds/chimes 2.wav",file: new Audio()}, 					// 0
+{name: "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/sounds/blip3.wav",file: new Audio()}, 						// 1
+{name: "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/sounds/CAMERA_VIDEO_LOA_60105303.wav",file: new Audio()},	// 2
+{name: "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/sounds/DOOR_POUNDING_ME_D0291401.wav",file: new Audio()},	// 3
+{name: "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/sounds/knock2.wav",file: new Audio()}, 					// 4
+{name: "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/sounds/pirate_song2.wav",file: new Audio()},				// 5
+{name: "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/sounds/powerdown.wav",file: new Audio()},					// 6
+{name: "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/sounds/put_down.wav",file: new Audio()},					// 7
+{name: "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/sounds/run.wav",file: new Audio()},						// 8
+{name: "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/sounds/SFXBible_12478.wav",file: new Audio()},				// 9
+{name: "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/sounds/static2.wav",file: new Audio()},					// 10
+{name: "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/sounds/windowscare.wav",file: new Audio()},				// 11
+{name: "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/sounds/XSCREAM.wav",file: new Audio()},
+{name: "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/sounds/XSCREAM2.wav",file: new Audio()},
+{name: "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/sounds/freddy/poweroutmusic.ogg",file: new Audio()},
+{name: "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/sounds/error.wav",file: new Audio()},
+{name: "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/sounds/kitchen1.wav",file: new Audio()},
+{name: "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/sounds/kitchen2.wav",file: new Audio()},
+{name: "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/sounds/kitchen3.wav",file: new Audio()},
+{name: "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/sounds/kitchen4.wav",file: new Audio()},
+{name: "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/sounds/Laugh_Giggle_Girl_1d.wav",file: new Audio()},
+{name: "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/sounds/Laugh_Giggle_Girl_2d.wav",file: new Audio()},
+{name: "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/sounds/Laugh_Giggle_Girl_8d.wav",file: new Audio()},
+{name: "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/sounds/deep steps.wav",file: new Audio()}
 ]; 
 
 for(x=0;x<sounds.length;x++){
 	debuglog("Loading "+sounds[x].name+" ...");
-	sounds[x].file.src = "sounds/"+sounds[x].name;
+	sounds[x].file.src = "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/sounds/"+sounds[x].name;
 	debuglog("Loaded "+sounds[x].file.src+" ...");
 }; 
 

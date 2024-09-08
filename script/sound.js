@@ -30,8 +30,8 @@ var DEFAULT_VOLUME = 0.3;
 
 var ambiance1 = new SeamlessLoop();
 var ambiance2 = new SeamlessLoop();
-ambiance1.addUri("sounds/Buzz_Fan_Florescent2.wav", 9600, "ambiancetrack1");
-ambiance2.addUri("sounds/ambience2.wav", 60000, "ambiancetrack2");
+ambiance1.addUri("https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/sounds/Buzz_Fan_Florescent2.wav", 9600, "ambiancetrack1");
+ambiance2.addUri("https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/sounds/ambience2.wav", 60000, "ambiancetrack2");
 
 /** @namespace 
 * @description The namespace for accessing the sound engine. */
