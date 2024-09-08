@@ -117,7 +117,7 @@ function loadEverythingElse(){
 	};
 	for(x=1;x<6;x++){
 		powerusageimage[x] = new Image();
-		powerusageimage[x].src = "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/graphics/camera/graphics/camera/power"+x+".png";
+		powerusageimage[x].src = "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/graphics/camera/power"+x+".png";
 	};
 	for(x=0;x<10;x++){
 		powerusagenumbersimage[x] = new Image();
