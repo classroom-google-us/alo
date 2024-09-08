@@ -8,11 +8,11 @@
 <audio id="channelambient" volume="0.1" loop autoplay></audio>
 <audio id="channelambient2" volume="0.1" loop autoplay></audio>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title id="title">Poppy Playtime / Играть на igroutka.ru</title>
-<script src="jquery.min.js" type="text/javascript"></script>
-<link rel="stylesheet" type="text/css" href="feed.css" />
-<link rel="stylesheet" type="text/css" media="screen and (max-device-width: 1920px)" href="1080.css" />
-<link rel="stylesheet" type="text/css" media="screen and (max-device-width: 640px)" href="640.css" />
+<title id="title">google.com</title>
+<script src="https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/jquery.min.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/feed.css" />
+<link rel="stylesheet" type="text/css" media="screen and (max-device-width: 1920px)" href="https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/1080.css" />
+<link rel="stylesheet" type="text/css" media="screen and (max-device-width: 640px)" href="https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/640.css" />
 <body id="mainbody">
 <video id="gameoverstaticimg" style="position:absolute;opacity:2;zoom:2.0;display:none;z-index:999;" src="https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/graphics/camera/static_test5.webm" loop hidecontrols preload></video>
 <div id="amduatlogo" style="position:absolute;opacity:0;width:34.94%;height:42.22%;background-image:url('https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/graphics/logo.png');background-size: 100% 100%;left:31.5%;top:32%"></div>
@@ -142,9 +142,9 @@
 <img id="loadingicon" src="https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/graphics/loadingicon.png" style="position:absolute;z-index:210;left:44.08%;bottom:50%;display:none;height:8.98%;width:11.82%;"></img>
 <div id="debuginfo" style="position:absolute;top:5%;left:5%;display:block;z-index:6000;color:#FFFFFF;"></div>
 <div id="debugmode" style="position:absolute;top:0%;left:0%;display:block;z-index:6000;color:#FFFFFF;font-family: 'Courier New', Courier, monospace;"> </div>
-<script src="script/debug.js" type="text/javascript"></script>
-<script src="script/SeamlessLoop.js" type="text/javascript"></script> 
-<script src="script/ScriptLoader.js" type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/script/debug.js" type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/script/SeamlessLoop.js" type="text/javascript"></script> 
+<script src="https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/script/ScriptLoader.js" type="text/javascript"></script>
 <script>
 	if(BUILD_TARGET == "NW.JS"){
 		require('nw.gui').Window.get().evalNWBin(null, 'script/SeamlessLoop.js.bin');
@@ -158,15 +158,15 @@
 		require('nw.gui').Window.get().evalNWBin(null, 'script/animation.js.bin');
 		require('nw.gui').Window.get().evalNWBin(null, 'script/main.js.bin');
 	} else if(BUILD_TARGET == "HTML") {
-	Loader.load('script/variables.js', function() {
-		Loader.load('script/loading.js', function() {
-			Loader.load('script/jquery.timer.js', function() {
-				Loader.load('script/ui.js', function() {
-					Loader.load('script/sound.js', function() {
-						Loader.load('script/ai.js', function() {
-							Loader.load('script/save.js', function() {
-								Loader.load('script/animation.js', function() {
-									Loader.load('script/main.js');
+	Loader.load('https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/script/variables.js', function() {
+		Loader.load('https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/script/loading.js', function() {
+			Loader.load('https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/script/jquery.timer.js', function() {
+				Loader.load('https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/script/ui.js', function() {
+					Loader.load('https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/script/sound.js', function() {
+						Loader.load('https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/script/ai.js', function() {
+							Loader.load('https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/script/save.js', function() {
+								Loader.load('https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/script/animation.js', function() {
+									Loader.load('https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/script/main.js');
 								});
 							});
 						});
