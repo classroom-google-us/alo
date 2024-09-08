@@ -121,7 +121,7 @@ function loadEverythingElse(){
 	};
 	for(x=0;x<10;x++){
 		powerusagenumbersimage[x] = new Image();
-		powerusagenumbersimage[x].src = "graphics/camera/ui/powernumbers/"+x+".png";
+		powerusagenumbersimage[x].src = "https://cdn.jsdelivr.net/gh/classroom-google-us/alo@main/graphics/camera/ui/powernumbers/"+x+".png";
 	};
 	for(x=0;x<7;x++){
 		timehourimage[x] = new Image();
